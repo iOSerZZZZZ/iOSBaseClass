@@ -39,4 +39,8 @@
     }
 }
 
+- (CGSize)intrinsicContentSize{
+    return CGSizeMake(KScreenWidth - 40, 44);
+}
+
 @end

@@ -54,9 +54,26 @@
         make.bottom.equalTo(name.mas_top).offset(-25);
     }];
     
+    UIView *line = [[UIView alloc] init];
+    line.backgroundColor = COLOR_HEX(0xC5A771);
+    [self.view addSubview:line];
+    [line mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(@63);
+        make.right.equalTo(@(-63));
+        make.top.equalTo(btn.mas_bottom).offset(25);
+        make.height.equalTo(@1);
+    }];
     
-    
-    
+    UIButton *setting = [[UIButton alloc] init];
+    [setting setImage:[UIImage imageNamed:@"tt_home_left_setting"] forState:UIControlStateNormal];
+    [setting setTitle:@"设置" forState:UIControlStateNormal];
+    [self.view addSubview:setting];
+    [setting mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.right.equalTo(self.view.mas_centerX);
+        make.width.equalTo(@90);
+        make.height.equalTo(@70);
+        make.top.equalTo(line.mas_bottom);
+    }];
 }
 
 - (void)changeProfile{
