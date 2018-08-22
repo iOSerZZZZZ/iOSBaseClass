@@ -9,8 +9,8 @@
 #import "SWNetManager.h"
 #import <MJExtension.h>
 #import <SVProgressHUD.h>
-#import "ShareWorkNavViewController.h"
-#import "ShareWorkerLoginViewController.h"
+//#import "ShareWorkNavViewController.h"
+//#import "ShareWorkerLoginViewController.h"
 #import "SWAlertManager.h"
 
 @interface SWNetManager()
@@ -138,7 +138,7 @@
         }
     } else if (swError.code == SWNetErrorCodeTokenExpire) {
         [SWAlertManager showMessage:@"令牌失效, 请重新登录!" meaageColor:[UIColor blackColor] okButtonTitle:@"确定" okButtonBlock:^{
-            [UIApplication sharedApplication].keyWindow.rootViewController = [[ShareWorkNavViewController alloc] initWithRootViewController:[[ShareWorkerLoginViewController alloc] init]];
+//            [UIApplication sharedApplication].keyWindow.rootViewController = [[ShareWorkNavViewController alloc] initWithRootViewController:[[ShareWorkerLoginViewController alloc] init]];
         }];
     } else {
         if (callBack) {

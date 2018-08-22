@@ -20,4 +20,6 @@
 
 + (instancetype)createImageWithColor:(UIColor *)color;
 
+
+
 @end

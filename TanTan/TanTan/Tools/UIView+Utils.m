@@ -19,7 +19,7 @@
     
     self.layer.shadowRadius = radius;//阴影扩散的范围控制
     
-    self.layer.shadowOffset  = CGSizeMake(1,1);//阴影的范围
+    self.layer.shadowOffset  = CGSizeMake(0,0);//阴影的范围
 }
 
 -(void)drawLayerBorderWithColor:(UIColor*)color  Width:(CGFloat) width

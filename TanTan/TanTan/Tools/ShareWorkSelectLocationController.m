@@ -88,18 +88,18 @@
 }
 
 
-- (BOOL)reverseGeoCode:(BMKReverseGeoCodeOption*)reverseGeoCodeOption{
-    return YES;
-}
-
--(void)onGetReverseGeoCodeResult:(BMKGeoCodeSearch *)searcher result:(BMKReverseGeoCodeResult *)result errorCode:(BMKSearchErrorCode)error
-{
-    BMKAddressComponent *component=[[BMKAddressComponent alloc]init];
-    component=result.addressDetail;
-    //这个就是我们要传给服务器的城市 ID    component.adCode;
-    self.cityId = component.adCode;
-    self.locationName = [NSString stringWithFormat:@"%@", result.address];
-}
+//- (BOOL)reverseGeoCode:(BMKReverseGeoCodeOption*)reverseGeoCodeOption{
+//    return YES;
+//}
+//
+//-(void)onGetReverseGeoCodeResult:(BMKGeoCodeSearch *)searcher result:(BMKReverseGeoCodeResult *)result errorCode:(BMKSearchErrorCode)error
+//{
+//    BMKAddressComponent *component=[[BMKAddressComponent alloc]init];
+//    component=result.addressDetail;
+//    //这个就是我们要传给服务器的城市 ID    component.adCode;
+//    self.cityId = component.adCode;
+//    self.locationName = [NSString stringWithFormat:@"%@", result.address];
+//}
 
 
 #pragma mark -- MapView Delegate
@@ -117,18 +117,18 @@
     self.location = pt;
     
     
-    BMKReverseGeoCodeOption *reverseOption=[[BMKReverseGeoCodeOption alloc]init];
-    //2.给反向地理编码选项对象的坐标点赋值
-    reverseOption.reverseGeoPoint= userLocation.location.coordinate;
-    //3.执行反地理编码
-    [self.geocodesearch reverseGeoCode:reverseOption];
-    
-    dispatch_async(dispatch_get_main_queue(), ^{
-        [self->_mapView removeOverlays:self->_mapView.overlays];
-        [self->_mapView setCenterCoordinate:coord animated:true];
-        [self->_mapView addAnnotation:_pointAnnotation];
-        [self->_locService stopUserLocationService];
-    });
+//    BMKReverseGeoCodeOption *reverseOption=[[BMKReverseGeoCodeOption alloc]init];
+//    //2.给反向地理编码选项对象的坐标点赋值
+//    reverseOption.reverseGeoPoint= userLocation.location.coordinate;
+//    //3.执行反地理编码
+//    [self.geocodesearch reverseGeoCode:reverseOption];
+//
+//    dispatch_async(dispatch_get_main_queue(), ^{
+//        [self->_mapView removeOverlays:self->_mapView.overlays];
+//        [self->_mapView setCenterCoordinate:coord animated:true];
+//        [self->_mapView addAnnotation:_pointAnnotation];
+//        [self->_locService stopUserLocationService];
+//    });
 }
 
 
@@ -138,11 +138,11 @@
     BMKPointAnnotation *_pointAnnotation = [[BMKPointAnnotation alloc] init];
     _pointAnnotation.coordinate = coor;
     
-    BMKReverseGeoCodeOption *reverseOption=[[BMKReverseGeoCodeOption alloc]init];
-    //2.给反向地理编码选项对象的坐标点赋值
-    reverseOption.reverseGeoPoint= coor;
-    //3.执行反地理编码
-    [self.geocodesearch reverseGeoCode:reverseOption];
+//    BMKReverseGeoCodeOption *reverseOption=[[BMKReverseGeoCodeOption alloc]init];
+//    //2.给反向地理编码选项对象的坐标点赋值
+//    reverseOption.reverseGeoPoint= coor;
+//    //3.执行反地理编码
+//    [self.geocodesearch reverseGeoCode:reverseOption];
     
     CLLocationCoordinate2D pt=(CLLocationCoordinate2D){0,0};
     pt = (CLLocationCoordinate2D){coor.latitude,coor.longitude};

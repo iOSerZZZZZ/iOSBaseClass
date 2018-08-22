@@ -79,9 +79,9 @@
 - (void)configurationSubviews{
     self.tableView.backgroundColor = MainBackgroundColor;
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.left.right.top.bottom.equalTo(self.view);
-        make.left.right.bottom.equalTo(self.view);
-        make.top.mas_equalTo(self.view).offset(self.topNavHeight);
+        make.left.right.top.bottom.equalTo(self.view);
+//        make.left.right.bottom.equalTo(self.view);
+//        make.top.mas_equalTo(self.view).offset(self.topNavHeight);
     }];
 }
 
