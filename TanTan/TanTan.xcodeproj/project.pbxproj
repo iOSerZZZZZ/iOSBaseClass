@@ -556,6 +556,7 @@
 		13ACB8CA212C3C95000BDCD4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TTShell;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "炫小七";
 				TargetAttributes = {
