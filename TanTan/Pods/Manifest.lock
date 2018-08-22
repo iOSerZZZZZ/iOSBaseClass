@@ -1,0 +1,85 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BaiduMapKit (4.1.1)
+  - DZNEmptyDataSet (1.8.1)
+  - FDFullscreenPopGesture (1.1)
+  - IQKeyboardManager (6.0.4)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.15)
+  - MJRefresh (3.1.15.3)
+  - PGDatePicker (2.4.5):
+    - PGPickerView
+  - PGPickerView (1.2.6)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.4.1):
+    - SDWebImage/Core (= 4.4.1)
+  - SDWebImage/Core (4.4.1)
+  - SVProgressHUD (2.2.5)
+  - TZImagePickerController (2.1.6)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BaiduMapKit
+  - DZNEmptyDataSet
+  - FDFullscreenPopGesture (= 1.1)
+  - IQKeyboardManager
+  - Masonry
+  - MJExtension
+  - MJRefresh
+  - PGDatePicker
+  - SDCycleScrollView
+  - SDWebImage
+  - SVProgressHUD
+  - TZImagePickerController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BaiduMapKit
+    - DZNEmptyDataSet
+    - FDFullscreenPopGesture
+    - IQKeyboardManager
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - PGDatePicker
+    - PGPickerView
+    - SDCycleScrollView
+    - SDWebImage
+    - SVProgressHUD
+    - TZImagePickerController
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BaiduMapKit: 51bba432a28316680676b4d453a70e5031f3a7eb
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  IQKeyboardManager: 29514134ef0334a6fa33cf4eee11c36c064baeaf
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 3f039575db1b135a20699ad298713b26acec1528
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  PGDatePicker: 37fb49a78d0dad9e0c55dc20f1d0242dbae20ade
+  PGPickerView: 8fbbf63d0404065a43a495a0115d339455e0f819
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TZImagePickerController: bc25e933c9d970a622d052f0d4de16202bbcd863
+
+PODFILE CHECKSUM: 3701c1f308e73c7e877307b58a8cc6efba8e4356
+
+COCOAPODS: 1.5.3
