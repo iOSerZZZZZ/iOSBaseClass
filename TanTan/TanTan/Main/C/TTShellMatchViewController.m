@@ -7,6 +7,7 @@
 //
 
 #import "TTShellMatchViewController.h"
+#import "TTShellUserProfileViewController.h"
 #import "TTShellMatchView.h"
 
 @interface TTShellMatchViewController ()
@@ -48,7 +49,9 @@ static CGFloat const MaxYScale = 1.1;
     };
     
     void(^tap)(TTShellMatchView *) = ^(TTShellMatchView *view){
-        
+        TTShellUserProfileViewController *profile = [[TTShellUserProfileViewController alloc] init];
+        UINavigationController *nav= [[UINavigationController alloc] initWithRootViewController:profile];
+        [self presentViewController:nav animated:YES completion:nil];
     };
     
     [self.views enumerateObjectsUsingBlock:^(UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {

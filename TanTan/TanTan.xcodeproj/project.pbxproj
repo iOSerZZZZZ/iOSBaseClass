@@ -63,6 +63,11 @@
 		153415E6212D2D7500D1E208 /* TTShellHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153415E5212D2D7500D1E208 /* TTShellHomeViewController.m */; };
 		153415E9212D2D9600D1E208 /* TTShellMainTopNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 153415E8212D2D9600D1E208 /* TTShellMainTopNavView.m */; };
 		153415EC212D304400D1E208 /* TTShellMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153415EB212D304400D1E208 /* TTShellMessageViewController.m */; };
+		153415F0212D3F1B00D1E208 /* TTShellMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 153415EE212D3F1B00D1E208 /* TTShellMessageCell.m */; };
+		153415F1212D3F1B00D1E208 /* TTShellMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153415EF212D3F1B00D1E208 /* TTShellMessageCell.xib */; };
+		153415F6212D451400D1E208 /* TTShellUserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153415F5212D451400D1E208 /* TTShellUserProfileViewController.m */; };
+		153415FA212D52E200D1E208 /* TTShellUserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 153415F9212D52E200D1E208 /* TTShellUserInfoView.m */; };
+		153415FC212D52EF00D1E208 /* TTShellUserInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153415FB212D52EF00D1E208 /* TTShellUserInfoView.xib */; };
 		4962CEFDFE5D61B6A2EC5598 /* libPods-TanTan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0B895A2F694B938FEA74FE /* libPods-TanTan.a */; };
 /* End PBXBuildFile section */
 
@@ -200,6 +205,14 @@
 		153415E8212D2D9600D1E208 /* TTShellMainTopNavView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTShellMainTopNavView.m; sourceTree = "<group>"; };
 		153415EA212D304400D1E208 /* TTShellMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTShellMessageViewController.h; sourceTree = "<group>"; };
 		153415EB212D304400D1E208 /* TTShellMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTShellMessageViewController.m; sourceTree = "<group>"; };
+		153415ED212D3F1B00D1E208 /* TTShellMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTShellMessageCell.h; sourceTree = "<group>"; };
+		153415EE212D3F1B00D1E208 /* TTShellMessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTShellMessageCell.m; sourceTree = "<group>"; };
+		153415EF212D3F1B00D1E208 /* TTShellMessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTShellMessageCell.xib; sourceTree = "<group>"; };
+		153415F4212D451400D1E208 /* TTShellUserProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTShellUserProfileViewController.h; sourceTree = "<group>"; };
+		153415F5212D451400D1E208 /* TTShellUserProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTShellUserProfileViewController.m; sourceTree = "<group>"; };
+		153415F8212D52E200D1E208 /* TTShellUserInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTShellUserInfoView.h; sourceTree = "<group>"; };
+		153415F9212D52E200D1E208 /* TTShellUserInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTShellUserInfoView.m; sourceTree = "<group>"; };
+		153415FB212D52EF00D1E208 /* TTShellUserInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTShellUserInfoView.xib; sourceTree = "<group>"; };
 		6C0B895A2F694B938FEA74FE /* libPods-TanTan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TanTan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E315B40847FD7C03123E96D6 /* Pods-TanTan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TanTan.release.xcconfig"; path = "Pods/Target Support Files/Pods-TanTan/Pods-TanTan.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -384,6 +397,7 @@
 		13ACB8D4212C3C95000BDCD4 /* TanTan */ = {
 			isa = PBXGroup;
 			children = (
+				153415F2212D44E100D1E208 /* User */,
 				153415D7212CF73D00D1E208 /* Main */,
 				13ACB908212C3CA6000BDCD4 /* Base */,
 				13ACB907212C3C9E000BDCD4 /* Tools */,
@@ -501,6 +515,37 @@
 				153415E2212CFEF400D1E208 /* TTShellMatchView.m */,
 				153415E7212D2D9600D1E208 /* TTShellMainTopNavView.h */,
 				153415E8212D2D9600D1E208 /* TTShellMainTopNavView.m */,
+				153415ED212D3F1B00D1E208 /* TTShellMessageCell.h */,
+				153415EE212D3F1B00D1E208 /* TTShellMessageCell.m */,
+				153415EF212D3F1B00D1E208 /* TTShellMessageCell.xib */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		153415F2212D44E100D1E208 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				153415F7212D52CD00D1E208 /* V */,
+				153415F3212D44F000D1E208 /* C */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		153415F3212D44F000D1E208 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				153415F4212D451400D1E208 /* TTShellUserProfileViewController.h */,
+				153415F5212D451400D1E208 /* TTShellUserProfileViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		153415F7212D52CD00D1E208 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				153415F8212D52E200D1E208 /* TTShellUserInfoView.h */,
+				153415F9212D52E200D1E208 /* TTShellUserInfoView.m */,
+				153415FB212D52EF00D1E208 /* TTShellUserInfoView.xib */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -628,9 +673,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				153415F1212D3F1B00D1E208 /* TTShellMessageCell.xib in Resources */,
 				13ACB8E2212C3C98000BDCD4 /* LaunchScreen.storyboard in Resources */,
 				13ACB8DF212C3C98000BDCD4 /* Assets.xcassets in Resources */,
 				13ACB8DD212C3C95000BDCD4 /* Main.storyboard in Resources */,
+				153415FC212D52EF00D1E208 /* TTShellUserInfoView.xib in Resources */,
 				13868BAD212CF5D200A12249 /* ShareWorkPickerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -749,7 +796,10 @@
 				153415E3212CFEF400D1E208 /* TTShellMatchView.m in Sources */,
 				13868BC4212CF5F000A12249 /* SPayDatePicker.m in Sources */,
 				13868BE2212CF5FD00A12249 /* QRCodeReader.m in Sources */,
+				153415F6212D451400D1E208 /* TTShellUserProfileViewController.m in Sources */,
 				13868C1B212CF61500A12249 /* LLFileManager.m in Sources */,
+				153415FA212D52E200D1E208 /* TTShellUserInfoView.m in Sources */,
+				153415F0212D3F1B00D1E208 /* TTShellMessageCell.m in Sources */,
 				13868BE1212CF5FD00A12249 /* QRCodeReaderView.m in Sources */,
 				13868BAF212CF5D200A12249 /* ShareWorkPickerView.m in Sources */,
 				13868C09212CF60A00A12249 /* SWNetError.m in Sources */,

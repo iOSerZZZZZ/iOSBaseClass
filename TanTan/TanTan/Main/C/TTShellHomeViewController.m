@@ -7,6 +7,7 @@
 //
 
 #import "TTShellHomeViewController.h"
+#import "TTShellUserProfileViewController.h"
 
 @interface TTShellHomeViewController ()
 
@@ -64,20 +65,38 @@
         make.height.equalTo(@1);
     }];
     
-    UIButton *setting = [[UIButton alloc] init];
-    [setting setImage:[UIImage imageNamed:@"tt_home_left_setting"] forState:UIControlStateNormal];
-    [setting setTitle:@"设置" forState:UIControlStateNormal];
-    [self.view addSubview:setting];
+    UIButton *setting = [self getBtn:[UIImage imageNamed:@"tt_home_left_setting"] title:@"设置"];
     [setting mas_makeConstraints:^(MASConstraintMaker *make) {
         make.right.equalTo(self.view.mas_centerX);
         make.width.equalTo(@90);
         make.height.equalTo(@70);
         make.top.equalTo(line.mas_bottom);
     }];
+    
+    UIButton *help = [self getBtn:[UIImage imageNamed:@"tt_home_left_help"] title:@"帮助"];
+    [help mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(self.view.mas_centerX);
+        make.width.equalTo(@90);
+        make.height.equalTo(@70);
+        make.top.equalTo(line.mas_bottom);
+    }];
+}
+
+- (UIButton *)getBtn:(UIImage *)image title:(NSString *)title{
+    UIButton *btn = [[UIButton alloc] init];
+    [btn setImage:image forState:UIControlStateNormal];
+    [btn setTitle:title forState:UIControlStateNormal];
+    [self.view addSubview:btn];
+    return btn;
 }
 
 - (void)changeProfile{
-    
+    TTShellUserProfileViewController *profile = [[TTShellUserProfileViewController alloc] init];
+    profile.isSelf = YES;
+    profile.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:profile animated:YES];
+//    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:profile];
+//    [self presentViewController:nav animated:true completion:nil];
 }
 
 @end

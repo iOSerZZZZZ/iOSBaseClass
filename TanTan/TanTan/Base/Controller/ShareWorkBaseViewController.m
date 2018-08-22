@@ -19,7 +19,7 @@
     self.view.backgroundColor = MainBackgroundColor;
     self.automaticallyAdjustsScrollViewInsets = NO;
     if (self.navigationController != nil && self.navigationController.childViewControllers.count > 1) {
-        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"sw_nav_back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStyleDone target:self action:@selector(back)];
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"tt_nav_back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStyleDone target:self action:@selector(back)];
     } else {
         self.navigationItem.leftBarButtonItem = nil;
     }

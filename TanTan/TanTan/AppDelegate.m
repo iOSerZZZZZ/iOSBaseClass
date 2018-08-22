@@ -22,6 +22,12 @@
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:main];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
+    
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSFontAttributeName:[UIFont boldSystemFontOfSize:18],NSForegroundColorAttributeName:COLOR_HEX(0xF82569)}];
+    [[UIBarButtonItem appearance] setTitleTextAttributes:@{NSFontAttributeName:[UIFont boldSystemFontOfSize:15],NSForegroundColorAttributeName:COLOR_HEX(0xF82569)} forState:UIControlStateNormal];
+    [[UIBarButtonItem appearance] setTitleTextAttributes:@{NSFontAttributeName:[UIFont boldSystemFontOfSize:15],NSForegroundColorAttributeName:COLOR_HEX(0xF82569)} forState:UIControlStateHighlighted];
+    
+    
     return YES;
 }
 
