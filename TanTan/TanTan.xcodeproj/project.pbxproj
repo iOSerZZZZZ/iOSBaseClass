@@ -7,6 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13868BAB212CF5D200A12249 /* ShareWorkBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868B9A212CF5D100A12249 /* ShareWorkBaseViewController.m */; };
+		13868BAC212CF5D200A12249 /* ShareWorkBaseTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868B9B212CF5D100A12249 /* ShareWorkBaseTableController.m */; };
+		13868BAD212CF5D200A12249 /* ShareWorkPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13868BA2212CF5D200A12249 /* ShareWorkPickerView.xib */; };
+		13868BAE212CF5D200A12249 /* ShareWorkSelectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BA4212CF5D200A12249 /* ShareWorkSelectManager.m */; };
+		13868BAF212CF5D200A12249 /* ShareWorkPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BA5212CF5D200A12249 /* ShareWorkPickerView.m */; };
+		13868BB0212CF5D200A12249 /* ShareWork4DLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BA8212CF5D200A12249 /* ShareWork4DLabel.m */; };
+		13868BB1212CF5D200A12249 /* ShareWorkBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BA9212CF5D200A12249 /* ShareWorkBaseTableView.m */; };
+		13868BB2212CF5D200A12249 /* ShareWorkCustomEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BAA212CF5D200A12249 /* ShareWorkCustomEmptyView.m */; };
+		13868BC3212CF5F000A12249 /* ShareWorkPickerImageManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BB3212CF5EE00A12249 /* ShareWorkPickerImageManage.m */; };
+		13868BC4212CF5F000A12249 /* SPayDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BB7212CF5EF00A12249 /* SPayDatePicker.m */; };
+		13868BC5212CF5F000A12249 /* SWLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BBB212CF5EF00A12249 /* SWLocationManager.m */; };
+		13868BC6212CF5F000A12249 /* UIImage+ShareWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BBC212CF5EF00A12249 /* UIImage+ShareWork.m */; };
+		13868BC7212CF5F000A12249 /* ShareWorkUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BBE212CF5F000A12249 /* ShareWorkUserProfile.m */; };
+		13868BC8212CF5F000A12249 /* ShareWorkCheckTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BBF212CF5F000A12249 /* ShareWorkCheckTool.m */; };
+		13868BC9212CF5F000A12249 /* ShareWorkSelectLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BC0212CF5F000A12249 /* ShareWorkSelectLocationController.m */; };
+		13868BCA212CF5F000A12249 /* SWAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BC1212CF5F000A12249 /* SWAlertManager.m */; };
+		13868BCD212CF5F600A12249 /* UUSearchTextFeild.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BCC212CF5F600A12249 /* UUSearchTextFeild.m */; };
+		13868BDD212CF5FD00A12249 /* SWQRCodeCreatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BD0212CF5FD00A12249 /* SWQRCodeCreatManager.m */; };
+		13868BDE212CF5FD00A12249 /* QRToggleTorchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BD3212CF5FD00A12249 /* QRToggleTorchButton.m */; };
+		13868BDF212CF5FD00A12249 /* QRCameraSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BD5212CF5FD00A12249 /* QRCameraSwitchButton.m */; };
+		13868BE0212CF5FD00A12249 /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BD7212CF5FD00A12249 /* QRCodeReaderViewController.m */; };
+		13868BE1212CF5FD00A12249 /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BD8212CF5FD00A12249 /* QRCodeReaderView.m */; };
+		13868BE2212CF5FD00A12249 /* QRCodeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BDC212CF5FD00A12249 /* QRCodeReader.m */; };
+		13868BFF212CF60A00A12249 /* LTSCalendarDayItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BE4212CF60A00A12249 /* LTSCalendarDayItem.m */; };
+		13868C00212CF60A00A12249 /* LTSCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BE6212CF60A00A12249 /* LTSCalendarManager.m */; };
+		13868C01212CF60A00A12249 /* LTSCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BE8212CF60A00A12249 /* LTSCircleView.m */; };
+		13868C02212CF60A00A12249 /* LTSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BE9212CF60A00A12249 /* LTSCalendarAppearance.m */; };
+		13868C03212CF60A00A12249 /* LTSCalendarContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BEC212CF60A00A12249 /* LTSCalendarContentView.m */; };
+		13868C04212CF60A00A12249 /* LTSCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BED212CF60A00A12249 /* LTSCalendarViewController.m */; };
+		13868C05212CF60A00A12249 /* LTSCalendarCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BEE212CF60A00A12249 /* LTSCalendarCollectionCell.m */; };
+		13868C06212CF60A00A12249 /* LTSCalendarScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BF2212CF60A00A12249 /* LTSCalendarScrollView.m */; };
+		13868C07212CF60A00A12249 /* LTSCalendarCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BF5212CF60A00A12249 /* LTSCalendarCollectionViewFlowLayout.m */; };
+		13868C08212CF60A00A12249 /* LTSCalendarWeekDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BF6212CF60A00A12249 /* LTSCalendarWeekDayView.m */; };
+		13868C09212CF60A00A12249 /* SWNetError.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BFB212CF60A00A12249 /* SWNetError.m */; };
+		13868C0A212CF60A00A12249 /* SWNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868BFD212CF60A00A12249 /* SWNetManager.m */; };
+		13868C19212CF61500A12249 /* LLPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868C0D212CF61400A12249 /* LLPhotoBrowser.m */; };
+		13868C1A212CF61500A12249 /* LLImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868C10212CF61400A12249 /* LLImageCache.m */; };
+		13868C1B212CF61500A12249 /* LLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868C11212CF61400A12249 /* LLFileManager.m */; };
+		13868C1C212CF61500A12249 /* LLPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868C14212CF61400A12249 /* LLPhoto.m */; };
+		13868C1D212CF61500A12249 /* LLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868C15212CF61400A12249 /* LLCollectionViewCell.m */; };
+		13868C1E212CF61500A12249 /* JZLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868C18212CF61400A12249 /* JZLocationConverter.m */; };
 		13ACB8D7212C3C95000BDCD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13ACB8D6212C3C95000BDCD4 /* AppDelegate.m */; };
 		13ACB8DA212C3C95000BDCD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13ACB8D9212C3C95000BDCD4 /* ViewController.m */; };
 		13ACB8DD212C3C95000BDCD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13ACB8DB212C3C95000BDCD4 /* Main.storyboard */; };
@@ -38,6 +79,90 @@
 
 /* Begin PBXFileReference section */
 		0D1922EDF20D550CB4534406 /* Pods-TanTan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TanTan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TanTan/Pods-TanTan.debug.xcconfig"; sourceTree = "<group>"; };
+		13868B9A212CF5D100A12249 /* ShareWorkBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareWorkBaseViewController.m; sourceTree = "<group>"; };
+		13868B9B212CF5D100A12249 /* ShareWorkBaseTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareWorkBaseTableController.m; sourceTree = "<group>"; };
+		13868B9C212CF5D100A12249 /* ShareWorkBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareWorkBaseViewController.h; sourceTree = "<group>"; };
+		13868B9D212CF5D100A12249 /* ShareWorkBaseTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareWorkBaseTableController.h; sourceTree = "<group>"; };
+		13868B9F212CF5D200A12249 /* ShareWork4DLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareWork4DLabel.h; sourceTree = "<group>"; };
+		13868BA1212CF5D200A12249 /* ShareWorkSelectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareWorkSelectManager.h; sourceTree = "<group>"; };
+		13868BA2212CF5D200A12249 /* ShareWorkPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareWorkPickerView.xib; sourceTree = "<group>"; };
+		13868BA3212CF5D200A12249 /* ShareWorkPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareWorkPickerView.h; sourceTree = "<group>"; };
+		13868BA4212CF5D200A12249 /* ShareWorkSelectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareWorkSelectManager.m; sourceTree = "<group>"; };
+		13868BA5212CF5D200A12249 /* ShareWorkPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareWorkPickerView.m; sourceTree = "<group>"; };
+		13868BA6212CF5D200A12249 /* ShareWorkBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareWorkBaseTableView.h; sourceTree = "<group>"; };
+		13868BA7212CF5D200A12249 /* ShareWorkCustomEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareWorkCustomEmptyView.h; sourceTree = "<group>"; };
+		13868BA8212CF5D200A12249 /* ShareWork4DLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareWork4DLabel.m; sourceTree = "<group>"; };
+		13868BA9212CF5D200A12249 /* ShareWorkBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareWorkBaseTableView.m; sourceTree = "<group>"; };
+		13868BAA212CF5D200A12249 /* ShareWorkCustomEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareWorkCustomEmptyView.m; sourceTree = "<group>"; };
+		13868BB3212CF5EE00A12249 /* ShareWorkPickerImageManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareWorkPickerImageManage.m; sourceTree = "<group>"; };
+		13868BB4212CF5EE00A12249 /* ShareWorkUserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareWorkUserProfile.h; sourceTree = "<group>"; };
+		13868BB5212CF5EF00A12249 /* UIImage+ShareWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ShareWork.h"; sourceTree = "<group>"; };
+		13868BB6212CF5EF00A12249 /* ShareWorkPickerImageManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareWorkPickerImageManage.h; sourceTree = "<group>"; };
+		13868BB7212CF5EF00A12249 /* SPayDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPayDatePicker.m; sourceTree = "<group>"; };
+		13868BB8212CF5EF00A12249 /* ShareWorkCheckTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareWorkCheckTool.h; sourceTree = "<group>"; };
+		13868BB9212CF5EF00A12249 /* SWLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLocationManager.h; sourceTree = "<group>"; };
+		13868BBA212CF5EF00A12249 /* SPayDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPayDatePicker.h; sourceTree = "<group>"; };
+		13868BBB212CF5EF00A12249 /* SWLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLocationManager.m; sourceTree = "<group>"; };
+		13868BBC212CF5EF00A12249 /* UIImage+ShareWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ShareWork.m"; sourceTree = "<group>"; };
+		13868BBD212CF5F000A12249 /* ShareWorkSelectLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareWorkSelectLocationController.h; sourceTree = "<group>"; };
+		13868BBE212CF5F000A12249 /* ShareWorkUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareWorkUserProfile.m; sourceTree = "<group>"; };
+		13868BBF212CF5F000A12249 /* ShareWorkCheckTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareWorkCheckTool.m; sourceTree = "<group>"; };
+		13868BC0212CF5F000A12249 /* ShareWorkSelectLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareWorkSelectLocationController.m; sourceTree = "<group>"; };
+		13868BC1212CF5F000A12249 /* SWAlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWAlertManager.m; sourceTree = "<group>"; };
+		13868BC2212CF5F000A12249 /* SWAlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWAlertManager.h; sourceTree = "<group>"; };
+		13868BCB212CF5F600A12249 /* UUSearchTextFeild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUSearchTextFeild.h; sourceTree = "<group>"; };
+		13868BCC212CF5F600A12249 /* UUSearchTextFeild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUSearchTextFeild.m; sourceTree = "<group>"; };
+		13868BCF212CF5FD00A12249 /* SWQRCodeCreatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWQRCodeCreatManager.h; sourceTree = "<group>"; };
+		13868BD0212CF5FD00A12249 /* SWQRCodeCreatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWQRCodeCreatManager.m; sourceTree = "<group>"; };
+		13868BD2212CF5FD00A12249 /* QRCodeReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderView.h; sourceTree = "<group>"; };
+		13868BD3212CF5FD00A12249 /* QRToggleTorchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRToggleTorchButton.m; sourceTree = "<group>"; };
+		13868BD4212CF5FD00A12249 /* QRCodeReaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderDelegate.h; sourceTree = "<group>"; };
+		13868BD5212CF5FD00A12249 /* QRCameraSwitchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCameraSwitchButton.m; sourceTree = "<group>"; };
+		13868BD6212CF5FD00A12249 /* QRCodeReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReader.h; sourceTree = "<group>"; };
+		13868BD7212CF5FD00A12249 /* QRCodeReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderViewController.m; sourceTree = "<group>"; };
+		13868BD8212CF5FD00A12249 /* QRCodeReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderView.m; sourceTree = "<group>"; };
+		13868BD9212CF5FD00A12249 /* QRToggleTorchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRToggleTorchButton.h; sourceTree = "<group>"; };
+		13868BDA212CF5FD00A12249 /* QRCameraSwitchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCameraSwitchButton.h; sourceTree = "<group>"; };
+		13868BDB212CF5FD00A12249 /* QRCodeReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderViewController.h; sourceTree = "<group>"; };
+		13868BDC212CF5FD00A12249 /* QRCodeReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReader.m; sourceTree = "<group>"; };
+		13868BE4212CF60A00A12249 /* LTSCalendarDayItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSCalendarDayItem.m; sourceTree = "<group>"; };
+		13868BE5212CF60A00A12249 /* LTSCalendarCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSCalendarCollectionCell.h; sourceTree = "<group>"; };
+		13868BE6212CF60A00A12249 /* LTSCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSCalendarManager.m; sourceTree = "<group>"; };
+		13868BE7212CF60A00A12249 /* LTSCalendarScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSCalendarScrollView.h; sourceTree = "<group>"; };
+		13868BE8212CF60A00A12249 /* LTSCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSCircleView.m; sourceTree = "<group>"; };
+		13868BE9212CF60A00A12249 /* LTSCalendarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSCalendarAppearance.m; sourceTree = "<group>"; };
+		13868BEA212CF60A00A12249 /* LTSCalendarWeekDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSCalendarWeekDayView.h; sourceTree = "<group>"; };
+		13868BEB212CF60A00A12249 /* LTSCalendarCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSCalendarCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		13868BEC212CF60A00A12249 /* LTSCalendarContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSCalendarContentView.m; sourceTree = "<group>"; };
+		13868BED212CF60A00A12249 /* LTSCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSCalendarViewController.m; sourceTree = "<group>"; };
+		13868BEE212CF60A00A12249 /* LTSCalendarCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSCalendarCollectionCell.m; sourceTree = "<group>"; };
+		13868BEF212CF60A00A12249 /* LTSCalendarDayItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSCalendarDayItem.h; sourceTree = "<group>"; };
+		13868BF0212CF60A00A12249 /* LTSCalendarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSCalendarAppearance.h; sourceTree = "<group>"; };
+		13868BF1212CF60A00A12249 /* LTSCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSCircleView.h; sourceTree = "<group>"; };
+		13868BF2212CF60A00A12249 /* LTSCalendarScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSCalendarScrollView.m; sourceTree = "<group>"; };
+		13868BF3212CF60A00A12249 /* LTSCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSCalendarManager.h; sourceTree = "<group>"; };
+		13868BF4212CF60A00A12249 /* LTSCalendarContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSCalendarContentView.h; sourceTree = "<group>"; };
+		13868BF5212CF60A00A12249 /* LTSCalendarCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSCalendarCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		13868BF6212CF60A00A12249 /* LTSCalendarWeekDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSCalendarWeekDayView.m; sourceTree = "<group>"; };
+		13868BF7212CF60A00A12249 /* LTSCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSCalendarViewController.h; sourceTree = "<group>"; };
+		13868BF8212CF60A00A12249 /* LTSCalendarEventSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSCalendarEventSource.h; sourceTree = "<group>"; };
+		13868BFA212CF60A00A12249 /* ShareWorkApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareWorkApi.h; sourceTree = "<group>"; };
+		13868BFB212CF60A00A12249 /* SWNetError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNetError.m; sourceTree = "<group>"; };
+		13868BFC212CF60A00A12249 /* SWNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNetManager.h; sourceTree = "<group>"; };
+		13868BFD212CF60A00A12249 /* SWNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNetManager.m; sourceTree = "<group>"; };
+		13868BFE212CF60A00A12249 /* SWNetError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNetError.h; sourceTree = "<group>"; };
+		13868C0B212CF61400A12249 /* JZLocationConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZLocationConverter.h; sourceTree = "<group>"; };
+		13868C0D212CF61400A12249 /* LLPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPhotoBrowser.m; sourceTree = "<group>"; };
+		13868C0E212CF61400A12249 /* LLCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCollectionViewCell.h; sourceTree = "<group>"; };
+		13868C10212CF61400A12249 /* LLImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLImageCache.m; sourceTree = "<group>"; };
+		13868C11212CF61400A12249 /* LLFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLFileManager.m; sourceTree = "<group>"; };
+		13868C12212CF61400A12249 /* LLImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLImageCache.h; sourceTree = "<group>"; };
+		13868C13212CF61400A12249 /* LLFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLFileManager.h; sourceTree = "<group>"; };
+		13868C14212CF61400A12249 /* LLPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPhoto.m; sourceTree = "<group>"; };
+		13868C15212CF61400A12249 /* LLCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCollectionViewCell.m; sourceTree = "<group>"; };
+		13868C16212CF61400A12249 /* LLPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPhotoBrowser.h; sourceTree = "<group>"; };
+		13868C17212CF61400A12249 /* LLPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPhoto.h; sourceTree = "<group>"; };
+		13868C18212CF61400A12249 /* JZLocationConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZLocationConverter.m; sourceTree = "<group>"; };
 		13ACB8D2212C3C95000BDCD4 /* TanTan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TanTan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13ACB8D5212C3C95000BDCD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13ACB8D6212C3C95000BDCD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +212,135 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13868B99212CF5D100A12249 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				13868B9A212CF5D100A12249 /* ShareWorkBaseViewController.m */,
+				13868B9B212CF5D100A12249 /* ShareWorkBaseTableController.m */,
+				13868B9C212CF5D100A12249 /* ShareWorkBaseViewController.h */,
+				13868B9D212CF5D100A12249 /* ShareWorkBaseTableController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		13868B9E212CF5D200A12249 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13868B9F212CF5D200A12249 /* ShareWork4DLabel.h */,
+				13868BA0212CF5D200A12249 /* Picker */,
+				13868BA6212CF5D200A12249 /* ShareWorkBaseTableView.h */,
+				13868BA7212CF5D200A12249 /* ShareWorkCustomEmptyView.h */,
+				13868BA8212CF5D200A12249 /* ShareWork4DLabel.m */,
+				13868BA9212CF5D200A12249 /* ShareWorkBaseTableView.m */,
+				13868BAA212CF5D200A12249 /* ShareWorkCustomEmptyView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		13868BA0212CF5D200A12249 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				13868BA1212CF5D200A12249 /* ShareWorkSelectManager.h */,
+				13868BA2212CF5D200A12249 /* ShareWorkPickerView.xib */,
+				13868BA3212CF5D200A12249 /* ShareWorkPickerView.h */,
+				13868BA4212CF5D200A12249 /* ShareWorkSelectManager.m */,
+				13868BA5212CF5D200A12249 /* ShareWorkPickerView.m */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		13868BCE212CF5FD00A12249 /* QRCodeCreat */ = {
+			isa = PBXGroup;
+			children = (
+				13868BCF212CF5FD00A12249 /* SWQRCodeCreatManager.h */,
+				13868BD0212CF5FD00A12249 /* SWQRCodeCreatManager.m */,
+			);
+			path = QRCodeCreat;
+			sourceTree = "<group>";
+		};
+		13868BD1212CF5FD00A12249 /* QRCodeReaderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				13868BD2212CF5FD00A12249 /* QRCodeReaderView.h */,
+				13868BD3212CF5FD00A12249 /* QRToggleTorchButton.m */,
+				13868BD4212CF5FD00A12249 /* QRCodeReaderDelegate.h */,
+				13868BD5212CF5FD00A12249 /* QRCameraSwitchButton.m */,
+				13868BD6212CF5FD00A12249 /* QRCodeReader.h */,
+				13868BD7212CF5FD00A12249 /* QRCodeReaderViewController.m */,
+				13868BD8212CF5FD00A12249 /* QRCodeReaderView.m */,
+				13868BD9212CF5FD00A12249 /* QRToggleTorchButton.h */,
+				13868BDA212CF5FD00A12249 /* QRCameraSwitchButton.h */,
+				13868BDB212CF5FD00A12249 /* QRCodeReaderViewController.h */,
+				13868BDC212CF5FD00A12249 /* QRCodeReader.m */,
+			);
+			path = QRCodeReaderViewController;
+			sourceTree = "<group>";
+		};
+		13868BE3212CF60A00A12249 /* LTSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				13868BE4212CF60A00A12249 /* LTSCalendarDayItem.m */,
+				13868BE5212CF60A00A12249 /* LTSCalendarCollectionCell.h */,
+				13868BE6212CF60A00A12249 /* LTSCalendarManager.m */,
+				13868BE7212CF60A00A12249 /* LTSCalendarScrollView.h */,
+				13868BE8212CF60A00A12249 /* LTSCircleView.m */,
+				13868BE9212CF60A00A12249 /* LTSCalendarAppearance.m */,
+				13868BEA212CF60A00A12249 /* LTSCalendarWeekDayView.h */,
+				13868BEB212CF60A00A12249 /* LTSCalendarCollectionViewFlowLayout.h */,
+				13868BEC212CF60A00A12249 /* LTSCalendarContentView.m */,
+				13868BED212CF60A00A12249 /* LTSCalendarViewController.m */,
+				13868BEE212CF60A00A12249 /* LTSCalendarCollectionCell.m */,
+				13868BEF212CF60A00A12249 /* LTSCalendarDayItem.h */,
+				13868BF0212CF60A00A12249 /* LTSCalendarAppearance.h */,
+				13868BF1212CF60A00A12249 /* LTSCircleView.h */,
+				13868BF2212CF60A00A12249 /* LTSCalendarScrollView.m */,
+				13868BF3212CF60A00A12249 /* LTSCalendarManager.h */,
+				13868BF4212CF60A00A12249 /* LTSCalendarContentView.h */,
+				13868BF5212CF60A00A12249 /* LTSCalendarCollectionViewFlowLayout.m */,
+				13868BF6212CF60A00A12249 /* LTSCalendarWeekDayView.m */,
+				13868BF7212CF60A00A12249 /* LTSCalendarViewController.h */,
+				13868BF8212CF60A00A12249 /* LTSCalendarEventSource.h */,
+			);
+			path = LTSCalendar;
+			sourceTree = "<group>";
+		};
+		13868BF9212CF60A00A12249 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				13868BFA212CF60A00A12249 /* ShareWorkApi.h */,
+				13868BFB212CF60A00A12249 /* SWNetError.m */,
+				13868BFC212CF60A00A12249 /* SWNetManager.h */,
+				13868BFD212CF60A00A12249 /* SWNetManager.m */,
+				13868BFE212CF60A00A12249 /* SWNetError.h */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		13868C0C212CF61400A12249 /* imagescan */ = {
+			isa = PBXGroup;
+			children = (
+				13868C0D212CF61400A12249 /* LLPhotoBrowser.m */,
+				13868C0E212CF61400A12249 /* LLCollectionViewCell.h */,
+				13868C0F212CF61400A12249 /* LLClasses */,
+				13868C14212CF61400A12249 /* LLPhoto.m */,
+				13868C15212CF61400A12249 /* LLCollectionViewCell.m */,
+				13868C16212CF61400A12249 /* LLPhotoBrowser.h */,
+				13868C17212CF61400A12249 /* LLPhoto.h */,
+			);
+			path = imagescan;
+			sourceTree = "<group>";
+		};
+		13868C0F212CF61400A12249 /* LLClasses */ = {
+			isa = PBXGroup;
+			children = (
+				13868C10212CF61400A12249 /* LLImageCache.m */,
+				13868C11212CF61400A12249 /* LLFileManager.m */,
+				13868C12212CF61400A12249 /* LLImageCache.h */,
+				13868C13212CF61400A12249 /* LLFileManager.h */,
+			);
+			path = LLClasses;
+			sourceTree = "<group>";
+		};
 		13ACB8C9212C3C95000BDCD4 = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +403,31 @@
 		13ACB907212C3C9E000BDCD4 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				13868C0C212CF61400A12249 /* imagescan */,
+				13868C0B212CF61400A12249 /* JZLocationConverter.h */,
+				13868C18212CF61400A12249 /* JZLocationConverter.m */,
+				13868BE3212CF60A00A12249 /* LTSCalendar */,
+				13868BF9212CF60A00A12249 /* Net */,
+				13868BCE212CF5FD00A12249 /* QRCodeCreat */,
+				13868BD1212CF5FD00A12249 /* QRCodeReaderViewController */,
+				13868BCB212CF5F600A12249 /* UUSearchTextFeild.h */,
+				13868BCC212CF5F600A12249 /* UUSearchTextFeild.m */,
+				13868BB8212CF5EF00A12249 /* ShareWorkCheckTool.h */,
+				13868BBF212CF5F000A12249 /* ShareWorkCheckTool.m */,
+				13868BB6212CF5EF00A12249 /* ShareWorkPickerImageManage.h */,
+				13868BB3212CF5EE00A12249 /* ShareWorkPickerImageManage.m */,
+				13868BBD212CF5F000A12249 /* ShareWorkSelectLocationController.h */,
+				13868BC0212CF5F000A12249 /* ShareWorkSelectLocationController.m */,
+				13868BB4212CF5EE00A12249 /* ShareWorkUserProfile.h */,
+				13868BBE212CF5F000A12249 /* ShareWorkUserProfile.m */,
+				13868BBA212CF5EF00A12249 /* SPayDatePicker.h */,
+				13868BB7212CF5EF00A12249 /* SPayDatePicker.m */,
+				13868BC2212CF5F000A12249 /* SWAlertManager.h */,
+				13868BC1212CF5F000A12249 /* SWAlertManager.m */,
+				13868BB9212CF5EF00A12249 /* SWLocationManager.h */,
+				13868BBB212CF5EF00A12249 /* SWLocationManager.m */,
+				13868BB5212CF5EF00A12249 /* UIImage+ShareWork.h */,
+				13868BBC212CF5EF00A12249 /* UIImage+ShareWork.m */,
 				13ACB90E212C3EF4000BDCD4 /* UIView+Utils.h */,
 				13ACB90D212C3EF4000BDCD4 /* UIView+Utils.m */,
 				13ACB910212C3F24000BDCD4 /* TantanPrefixHeader.pch */,
@@ -159,6 +438,8 @@
 		13ACB908212C3CA6000BDCD4 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				13868B99212CF5D100A12249 /* Controller */,
+				13868B9E212CF5D200A12249 /* View */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -319,6 +600,7 @@
 				13ACB8E2212C3C98000BDCD4 /* LaunchScreen.storyboard in Resources */,
 				13ACB8DF212C3C98000BDCD4 /* Assets.xcassets in Resources */,
 				13ACB8DD212C3C95000BDCD4 /* Main.storyboard in Resources */,
+				13868BAD212CF5D200A12249 /* ShareWorkPickerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,10 +674,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13868BDF212CF5FD00A12249 /* QRCameraSwitchButton.m in Sources */,
+				13868BCA212CF5F000A12249 /* SWAlertManager.m in Sources */,
+				13868C04212CF60A00A12249 /* LTSCalendarViewController.m in Sources */,
+				13868C0A212CF60A00A12249 /* SWNetManager.m in Sources */,
+				13868BDE212CF5FD00A12249 /* QRToggleTorchButton.m in Sources */,
+				13868BFF212CF60A00A12249 /* LTSCalendarDayItem.m in Sources */,
+				13868BDD212CF5FD00A12249 /* SWQRCodeCreatManager.m in Sources */,
+				13868BAC212CF5D200A12249 /* ShareWorkBaseTableController.m in Sources */,
+				13868C1A212CF61500A12249 /* LLImageCache.m in Sources */,
+				13868BB0212CF5D200A12249 /* ShareWork4DLabel.m in Sources */,
+				13868BC8212CF5F000A12249 /* ShareWorkCheckTool.m in Sources */,
+				13868C06212CF60A00A12249 /* LTSCalendarScrollView.m in Sources */,
+				13868BE0212CF5FD00A12249 /* QRCodeReaderViewController.m in Sources */,
+				13868BAE212CF5D200A12249 /* ShareWorkSelectManager.m in Sources */,
 				13ACB8DA212C3C95000BDCD4 /* ViewController.m in Sources */,
+				13868BC9212CF5F000A12249 /* ShareWorkSelectLocationController.m in Sources */,
 				13ACB8E5212C3C98000BDCD4 /* main.m in Sources */,
 				13ACB90F212C3EF4000BDCD4 /* UIView+Utils.m in Sources */,
 				13ACB8D7212C3C95000BDCD4 /* AppDelegate.m in Sources */,
+				13868BC7212CF5F000A12249 /* ShareWorkUserProfile.m in Sources */,
+				13868C07212CF60A00A12249 /* LTSCalendarCollectionViewFlowLayout.m in Sources */,
+				13868BCD212CF5F600A12249 /* UUSearchTextFeild.m in Sources */,
+				13868BC3212CF5F000A12249 /* ShareWorkPickerImageManage.m in Sources */,
+				13868BC5212CF5F000A12249 /* SWLocationManager.m in Sources */,
+				13868BB2212CF5D200A12249 /* ShareWorkCustomEmptyView.m in Sources */,
+				13868C19212CF61500A12249 /* LLPhotoBrowser.m in Sources */,
+				13868BB1212CF5D200A12249 /* ShareWorkBaseTableView.m in Sources */,
+				13868BAB212CF5D200A12249 /* ShareWorkBaseViewController.m in Sources */,
+				13868C1C212CF61500A12249 /* LLPhoto.m in Sources */,
+				13868C1E212CF61500A12249 /* JZLocationConverter.m in Sources */,
+				13868C03212CF60A00A12249 /* LTSCalendarContentView.m in Sources */,
+				13868C05212CF60A00A12249 /* LTSCalendarCollectionCell.m in Sources */,
+				13868C01212CF60A00A12249 /* LTSCircleView.m in Sources */,
+				13868C02212CF60A00A12249 /* LTSCalendarAppearance.m in Sources */,
+				13868C08212CF60A00A12249 /* LTSCalendarWeekDayView.m in Sources */,
+				13868C1D212CF61500A12249 /* LLCollectionViewCell.m in Sources */,
+				13868BC4212CF5F000A12249 /* SPayDatePicker.m in Sources */,
+				13868BE2212CF5FD00A12249 /* QRCodeReader.m in Sources */,
+				13868C1B212CF61500A12249 /* LLFileManager.m in Sources */,
+				13868BE1212CF5FD00A12249 /* QRCodeReaderView.m in Sources */,
+				13868BAF212CF5D200A12249 /* ShareWorkPickerView.m in Sources */,
+				13868C09212CF60A00A12249 /* SWNetError.m in Sources */,
+				13868BC6212CF5F000A12249 /* UIImage+ShareWork.m in Sources */,
+				13868C00212CF60A00A12249 /* LTSCalendarManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
