@@ -68,6 +68,15 @@
 		153415F6212D451400D1E208 /* TTShellUserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153415F5212D451400D1E208 /* TTShellUserProfileViewController.m */; };
 		153415FA212D52E200D1E208 /* TTShellUserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 153415F9212D52E200D1E208 /* TTShellUserInfoView.m */; };
 		153415FC212D52EF00D1E208 /* TTShellUserInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153415FB212D52EF00D1E208 /* TTShellUserInfoView.xib */; };
+		15E8B3EA212E4D4D00728BAC /* TTShellUserSection1Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E8B3E8212E4D4D00728BAC /* TTShellUserSection1Cell.m */; };
+		15E8B3EB212E4D4D00728BAC /* TTShellUserSection1Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E8B3E9212E4D4D00728BAC /* TTShellUserSection1Cell.xib */; };
+		15E8B3F2212E4D7600728BAC /* TTShellUserSection2Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E8B3F0212E4D7600728BAC /* TTShellUserSection2Cell.m */; };
+		15E8B3F3212E4D7600728BAC /* TTShellUserSection2Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E8B3F1212E4D7600728BAC /* TTShellUserSection2Cell.xib */; };
+		15E8B3F7212E4D8200728BAC /* TTShellUserSection3Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E8B3F5212E4D8200728BAC /* TTShellUserSection3Cell.m */; };
+		15E8B3F8212E4D8200728BAC /* TTShellUserSection3Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E8B3F6212E4D8200728BAC /* TTShellUserSection3Cell.xib */; };
+		15E8B3FB212E4E8300728BAC /* TTShellUserBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E8B3FA212E4E8300728BAC /* TTShellUserBaseCell.m */; };
+		15E8B3FE212E85C900728BAC /* TTShellUserEditPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E8B3FD212E85C900728BAC /* TTShellUserEditPhotoView.m */; };
+		15E8B400212E85D500728BAC /* TTShellUserEditPhotoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E8B3FF212E85D500728BAC /* TTShellUserEditPhotoView.xib */; };
 		4962CEFDFE5D61B6A2EC5598 /* libPods-TanTan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0B895A2F694B938FEA74FE /* libPods-TanTan.a */; };
 /* End PBXBuildFile section */
 
@@ -213,6 +222,20 @@
 		153415F8212D52E200D1E208 /* TTShellUserInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTShellUserInfoView.h; sourceTree = "<group>"; };
 		153415F9212D52E200D1E208 /* TTShellUserInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTShellUserInfoView.m; sourceTree = "<group>"; };
 		153415FB212D52EF00D1E208 /* TTShellUserInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTShellUserInfoView.xib; sourceTree = "<group>"; };
+		15E8B3E7212E4D4D00728BAC /* TTShellUserSection1Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTShellUserSection1Cell.h; sourceTree = "<group>"; };
+		15E8B3E8212E4D4D00728BAC /* TTShellUserSection1Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTShellUserSection1Cell.m; sourceTree = "<group>"; };
+		15E8B3E9212E4D4D00728BAC /* TTShellUserSection1Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTShellUserSection1Cell.xib; sourceTree = "<group>"; };
+		15E8B3EF212E4D7600728BAC /* TTShellUserSection2Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTShellUserSection2Cell.h; sourceTree = "<group>"; };
+		15E8B3F0212E4D7600728BAC /* TTShellUserSection2Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTShellUserSection2Cell.m; sourceTree = "<group>"; };
+		15E8B3F1212E4D7600728BAC /* TTShellUserSection2Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTShellUserSection2Cell.xib; sourceTree = "<group>"; };
+		15E8B3F4212E4D8200728BAC /* TTShellUserSection3Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTShellUserSection3Cell.h; sourceTree = "<group>"; };
+		15E8B3F5212E4D8200728BAC /* TTShellUserSection3Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTShellUserSection3Cell.m; sourceTree = "<group>"; };
+		15E8B3F6212E4D8200728BAC /* TTShellUserSection3Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTShellUserSection3Cell.xib; sourceTree = "<group>"; };
+		15E8B3F9212E4E8300728BAC /* TTShellUserBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTShellUserBaseCell.h; sourceTree = "<group>"; };
+		15E8B3FA212E4E8300728BAC /* TTShellUserBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTShellUserBaseCell.m; sourceTree = "<group>"; };
+		15E8B3FC212E85C900728BAC /* TTShellUserEditPhotoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTShellUserEditPhotoView.h; sourceTree = "<group>"; };
+		15E8B3FD212E85C900728BAC /* TTShellUserEditPhotoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTShellUserEditPhotoView.m; sourceTree = "<group>"; };
+		15E8B3FF212E85D500728BAC /* TTShellUserEditPhotoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTShellUserEditPhotoView.xib; sourceTree = "<group>"; };
 		6C0B895A2F694B938FEA74FE /* libPods-TanTan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TanTan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E315B40847FD7C03123E96D6 /* Pods-TanTan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TanTan.release.xcconfig"; path = "Pods/Target Support Files/Pods-TanTan/Pods-TanTan.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -546,6 +569,20 @@
 				153415F8212D52E200D1E208 /* TTShellUserInfoView.h */,
 				153415F9212D52E200D1E208 /* TTShellUserInfoView.m */,
 				153415FB212D52EF00D1E208 /* TTShellUserInfoView.xib */,
+				15E8B3E7212E4D4D00728BAC /* TTShellUserSection1Cell.h */,
+				15E8B3E8212E4D4D00728BAC /* TTShellUserSection1Cell.m */,
+				15E8B3E9212E4D4D00728BAC /* TTShellUserSection1Cell.xib */,
+				15E8B3EF212E4D7600728BAC /* TTShellUserSection2Cell.h */,
+				15E8B3F0212E4D7600728BAC /* TTShellUserSection2Cell.m */,
+				15E8B3F1212E4D7600728BAC /* TTShellUserSection2Cell.xib */,
+				15E8B3F4212E4D8200728BAC /* TTShellUserSection3Cell.h */,
+				15E8B3F5212E4D8200728BAC /* TTShellUserSection3Cell.m */,
+				15E8B3F6212E4D8200728BAC /* TTShellUserSection3Cell.xib */,
+				15E8B3F9212E4E8300728BAC /* TTShellUserBaseCell.h */,
+				15E8B3FA212E4E8300728BAC /* TTShellUserBaseCell.m */,
+				15E8B3FC212E85C900728BAC /* TTShellUserEditPhotoView.h */,
+				15E8B3FD212E85C900728BAC /* TTShellUserEditPhotoView.m */,
+				15E8B3FF212E85D500728BAC /* TTShellUserEditPhotoView.xib */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -673,7 +710,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E8B3F8212E4D8200728BAC /* TTShellUserSection3Cell.xib in Resources */,
 				153415F1212D3F1B00D1E208 /* TTShellMessageCell.xib in Resources */,
+				15E8B3EB212E4D4D00728BAC /* TTShellUserSection1Cell.xib in Resources */,
+				15E8B400212E85D500728BAC /* TTShellUserEditPhotoView.xib in Resources */,
+				15E8B3F3212E4D7600728BAC /* TTShellUserSection2Cell.xib in Resources */,
 				13ACB8E2212C3C98000BDCD4 /* LaunchScreen.storyboard in Resources */,
 				13ACB8DF212C3C98000BDCD4 /* Assets.xcassets in Resources */,
 				13ACB8DD212C3C95000BDCD4 /* Main.storyboard in Resources */,
@@ -761,6 +802,7 @@
 				153415E9212D2D9600D1E208 /* TTShellMainTopNavView.m in Sources */,
 				13868BDD212CF5FD00A12249 /* SWQRCodeCreatManager.m in Sources */,
 				13868BAC212CF5D200A12249 /* ShareWorkBaseTableController.m in Sources */,
+				15E8B3EA212E4D4D00728BAC /* TTShellUserSection1Cell.m in Sources */,
 				13868C1A212CF61500A12249 /* LLImageCache.m in Sources */,
 				13868BB0212CF5D200A12249 /* ShareWork4DLabel.m in Sources */,
 				13868BC8212CF5F000A12249 /* ShareWorkCheckTool.m in Sources */,
@@ -770,6 +812,8 @@
 				13868BAE212CF5D200A12249 /* ShareWorkSelectManager.m in Sources */,
 				13ACB8DA212C3C95000BDCD4 /* ViewController.m in Sources */,
 				153415E0212CF8A400D1E208 /* TTShellMatchViewController.m in Sources */,
+				15E8B3F7212E4D8200728BAC /* TTShellUserSection3Cell.m in Sources */,
+				15E8B3F2212E4D7600728BAC /* TTShellUserSection2Cell.m in Sources */,
 				153415DD212CF76C00D1E208 /* TTShellMainViewController.m in Sources */,
 				13868BC9212CF5F000A12249 /* ShareWorkSelectLocationController.m in Sources */,
 				13ACB8E5212C3C98000BDCD4 /* main.m in Sources */,
@@ -795,8 +839,10 @@
 				13868C1D212CF61500A12249 /* LLCollectionViewCell.m in Sources */,
 				153415E3212CFEF400D1E208 /* TTShellMatchView.m in Sources */,
 				13868BC4212CF5F000A12249 /* SPayDatePicker.m in Sources */,
+				15E8B3FB212E4E8300728BAC /* TTShellUserBaseCell.m in Sources */,
 				13868BE2212CF5FD00A12249 /* QRCodeReader.m in Sources */,
 				153415F6212D451400D1E208 /* TTShellUserProfileViewController.m in Sources */,
+				15E8B3FE212E85C900728BAC /* TTShellUserEditPhotoView.m in Sources */,
 				13868C1B212CF61500A12249 /* LLFileManager.m in Sources */,
 				153415FA212D52E200D1E208 /* TTShellUserInfoView.m in Sources */,
 				153415F0212D3F1B00D1E208 /* TTShellMessageCell.m in Sources */,
